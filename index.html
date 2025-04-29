@@ -1,0 +1,78 @@
+<!-- Add these in the <head> section -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-storage-compat.js"></script>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>महाराष्ट्रीय पाककृती - Maharashtrian Recipes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 id="site-title">महाराष्ट्रीय पाककृती</h1>
+            <div class="language-toggle">
+                <button id="lang-en">English</button>
+                <button id="lang-mr" class="active">मराठी</button>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search recipes...">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="recipe-categories">
+            <h2 id="categories-title">Categories</h2>
+            <div class="category-buttons">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="breakfast">नाश्ता</button>
+                <button class="category-btn" data-category="lunch">जेवण</button>
+                <button class="category-btn" data-category="snacks">नाश्ता</button>
+                <button class="category-btn" data-category="sweets">मिठाई</button>
+            </div>
+        </div>
+
+        <div class="recipes-container" id="recipes-container">
+            <!-- Recipes will be loaded here by JavaScript -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p id="footer-text">© 2023 महाराष्ट्रीय पाककृती - सर्व हक्क राखीव</p>
+        </div>
+    </footer>
+
+    <div class="modal" id="recipe-modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="modal-title">Recipe Title</h2>
+            <img id="modal-image" src="" alt="Recipe Image">
+            <div class="modal-details">
+                <div class="ingredients">
+                    <h3 id="ingredients-title">Ingredients</h3>
+                    <ul id="ingredients-list"></ul>
+                </div>
+                <div class="steps">
+                    <h3 id="steps-title">Steps</h3>
+                    <ol id="steps-list"></ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
