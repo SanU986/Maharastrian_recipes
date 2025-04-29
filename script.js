@@ -594,7 +594,7 @@ const recipes = [
         "name": "बटाटा पोहे",
         "nameEn": "Batata Poha",
         "category": "breakfast",
-        "image": "image.png",
+        "image": "battapoha.png",
         "ingredients": [
             "२ कप पोहे",
             "२ बटाटे, उकडून चिरून",
@@ -645,8 +645,599 @@ const recipes = [
             "Turn off heat, add lemon juice and coriander.",
             "Serve hot."
         ]
+    },
+    {
+        id: 14,
+        name: "मटकी उसळ",
+        nameEn: "Matki Usal",
+        category: "lunch",
+        image: "mataki.png",
+        ingredients: [
+            "१ कप मटकी",
+            "१ कांदा, बारीक चिरलेला",
+            "२ टोमॅटो, बारीक चिरलेले",
+            "१ चमचा गोडा मसाला",
+            "१ चमचा राई",
+            "१ चमचा हळद",
+            "१ चमचा गरम मसाला",
+            "कोथिंबीर सजावटीसाठी"
+        ],
+        ingredientsEn: [
+            "1 cup moth beans (matki)",
+            "1 onion, finely chopped",
+            "2 tomatoes, finely chopped",
+            "1 tbsp goda masala",
+            "1 tsp mustard seeds",
+            "1 tsp turmeric powder",
+            "1 tsp garam masala",
+            "Coriander leaves for garnish"
+        ],
+        steps: [
+            "मटकी रात्रभर भिजत ठेवा आणि फुटण्यासाठी ठेवा.",
+            "कढईत तेल गरम करून राई घाला.",
+            "कांदा आणि टोमॅटो घालून परता.",
+            "सर्व मसाले घालून चांगले मिक्स करा.",
+            "फुटलेली मटकी घालून ५-७ मिनिटे शिजवा.",
+            "कोथिंबीर घालून गरमागरम सर्व्ह करा."
+        ],
+        stepsEn: [
+            "Soak matki overnight and allow to sprout.",
+            "Heat oil in a pan and add mustard seeds.",
+            "Add onions and tomatoes, sauté well.",
+            "Add all spices and mix thoroughly.",
+            "Add sprouted matki and cook for 5-7 minutes.",
+            "Garnish with coriander and serve hot."
+        ]
+    },
+    {
+        id: 15,
+        name: "पिठला भाकरी",
+        nameEn: "Pithla Bhakri",
+        category: "lunch",
+        image: "pithla.png",
+        ingredients: [
+            "१ कप बेसन",
+            "१ कांदा, बारीक चिरलेला",
+            "२ हिरव्या मिरच्या",
+            "१ चमचा जिरे",
+            "१/२ चमचा हळद",
+            "कोथिंबीर सजावटीसाठी",
+            "मीठ चवीनुसार"
+        ],
+        ingredientsEn: [
+            "1 cup gram flour (besan)",
+            "1 onion, finely chopped",
+            "2 green chilies",
+            "1 tsp cumin seeds",
+            "1/2 tsp turmeric powder",
+            "Coriander leaves for garnish",
+            "Salt to taste"
+        ],
+        steps: [
+            "कढईत तेल गरम करून जिरे घाला.",
+            "कांदा आणि हिरवी मिरची घालून परता.",
+            "बेसन घालून २ मिनिटे परता.",
+            "हळूहळू पाणी घालून गोठू न देता मिक्स करा.",
+            "१० मिनिटे शिजवून कोथिंबीर घाला.",
+            "ज्वारीच्या भाकरीबरोबर सर्व्ह करा."
+        ],
+        stepsEn: [
+            "Heat oil in a pan and add cumin seeds.",
+            "Add onions and green chilies, sauté.",
+            "Add gram flour and roast for 2 minutes.",
+            "Slowly add water while stirring to avoid lumps.",
+            "Cook for 10 minutes, garnish with coriander.",
+            "Serve with jowar bhakri."
+        ]
+    },
+    {
+        id: 16,
+        name: "आमटी",
+        nameEn: "Aamti",
+        category: "lunch",
+        image: "aamti.png",
+        ingredients: [
+            "१ कप तूर डाळ",
+            "१ चमचा गोडा मसाला",
+            "१ चमचा इमली पेस्ट",
+            "१ चमचा गूळ",
+            "१/२ चमचा राई",
+            "१/२ चमचा हिंग",
+            "मीठ चवीनुसार"
+        ],
+        ingredientsEn: [
+            "1 cup toor dal",
+            "1 tbsp goda masala",
+            "1 tsp tamarind paste",
+            "1 tsp jaggery",
+            "1/2 tsp mustard seeds",
+            "1/2 tsp asafoetida",
+            "Salt to taste"
+        ],
+        steps: [
+            "डाळ प्रेशर कुकरमध्ये शिजवा.",
+            "कढईत तेल गरम करून राई आणि हिंग घाला.",
+            "गोडा मसाला, इमली, गूळ आणि मीठ घाला.",
+            "शिजलेली डाळ घालून ५ मिनिटे उकळवा.",
+            "भाताबरोबर सर्व्ह करा."
+        ],
+        stepsEn: [
+            "Cook toor dal in pressure cooker.",
+            "Heat oil in pan, add mustard seeds and asafoetida.",
+            "Add goda masala, tamarind, jaggery and salt.",
+            "Add cooked dal and simmer for 5 minutes.",
+            "Serve with rice."
+        ]
+    },
+    {
+        id: 17,
+        name: "काजू कतली",
+        nameEn: "Kaju Katli",
+        category: "sweets",
+        image: "kaju.png",
+        ingredients: [
+            "१ कप काजू पूड",
+            "१/२ कप साखर",
+            "१/४ कप पाणी",
+            "१ चमचा तूप"
+        ],
+        ingredientsEn: [
+            "1 cup cashew powder",
+            "1/2 cup sugar",
+            "1/4 cup water",
+            "1 tsp ghee"
+        ],
+        steps: [
+            "साखर आणि पाणी एकत्र करून पातळ सिरप तयार करा.",
+            "काजू पूड घालून चांगले मिक्स करा.",
+            "तूप घालून ५ मिनिटे शिजवा.",
+            "थंड होऊ द्या आणि पातळ वाटोळे करा.",
+            "कतलीच्या आकारात कापून सर्व्ह करा."
+        ],
+        stepsEn: [
+            "Make thin syrup with sugar and water.",
+            "Add cashew powder and mix well.",
+            "Add ghee and cook for 5 minutes.",
+            "Let it cool and roll thin.",
+            "Cut into diamond shapes and serve."
+        ]
+    },
+    {
+        id: 18,
+        name: "आळूची वडी",
+        nameEn: "Aluchi Vadi",
+        category: "snacks",
+        image: "aluchi.png",
+        ingredients: [
+            "८-१० आळूची पाने",
+            "१ कप बेसन",
+            "१ चमचा तिखट",
+            "१ चमचा इमली पेस्ट",
+            "तेल तळण्यासाठी"
+        ],
+        ingredientsEn: [
+            "8-10 colocasia leaves",
+            "1 cup gram flour (besan)",
+            "1 tbsp red chili powder",
+            "1 tsp tamarind paste",
+            "Oil for frying"
+        ],
+        steps: [
+            "बेसन, तिखट आणि इमली पेस्ट मिसळून पेस्ट तयार करा.",
+            "आळूच्या पानावर पेस्ट लावून रोल करा.",
+            "स्टीमरमध्ये १५ मिनिटे वाफवा.",
+            "थंड होऊ द्या आणि चकत्या करा.",
+            "तेलात क्रिस्पी होईपर्यंत तळा.",
+            "चटणीबरोबर सर्व्ह करा."
+        ],
+        stepsEn: [
+            "Make paste with besan, chili powder and tamarind.",
+            "Apply paste on leaves and roll them.",
+            "Steam for 15 minutes.",
+            "Let it cool and slice.",
+            "Fry until crispy.",
+            "Serve with chutney."
+        ]
+    },
+    {
+        id: 19,
+        name: "कोंबडी वडे",
+        nameEn: "Kombdi Vade",
+        category: "lunch",
+        image: "kombdi.png",
+        ingredients: [
+            "१ कोंबडी (चिकन)",
+            "२ कप गव्हाचे पीठ",
+            "१ चमचा लसूण-आले पेस्ट",
+            "१ चमचा गरम मसाला",
+            "१ चमचा धणे पूड",
+            "तेल तळण्यासाठी"
+        ],
+        ingredientsEn: [
+            "1 chicken (cut into pieces)",
+            "2 cups wheat flour",
+            "1 tbsp garlic-ginger paste",
+            "1 tsp garam masala",
+            "1 tsp coriander powder",
+            "Oil for frying"
+        ],
+        steps: [
+            "चिकन लसूण-आले पेस्ट आणि मसाले लावून ३० मिनिटे मरीनेट करा.",
+            "प्रेशर कुकरमध्ये ४ शिट्टी पर्यंत शिजवा.",
+            "गव्हाच्या पिठापासून वडे तळा.",
+            "चिकन आणि वडे गरमागरम सर्व्ह करा."
+        ],
+        stepsEn: [
+            "Marinate chicken with garlic-ginger paste and spices for 30 mins.",
+            "Cook in pressure cooker for 4 whistles.",
+            "Fry vade from wheat flour dough.",
+            "Serve hot chicken with vade."
+        ]
+    },
+    {
+        id: 20,
+        name: "तांबडा रस्सा",
+        nameEn: "Tambda Rassa",
+        category: "lunch",
+        image: "rassa.png",
+        ingredients: [
+            "५०० ग्रॅम मटण",
+            "२ मध्यम कांदे",
+            "१५-२० लाल मिरच्या",
+            "१ चमचा कोकम",
+            "१ चमचा जिरे पूड",
+            "१ चमचा तेल"
+        ],
+        ingredientsEn: [
+            "500g mutton",
+            "2 medium onions",
+            "15-20 red chilies",
+            "1 tsp kokum",
+            "1 tsp cumin powder",
+            "1 tbsp oil"
+        ],
+        steps: [
+            "मटण प्रेशर कुकरमध्ये अर्धवट शिजवा.",
+            "कांदे आणि मिरच्या भेटवून पेस्ट बनवा.",
+            "तेलात पेस्ट परता, शिजलेले मटण आणि कोकम घाला.",
+            "१५ मिनिटे उकळवा. भाकरीबरोबर सर्व्ह करा."
+        ],
+        stepsEn: [
+            "Partially cook mutton in pressure cooker.",
+            "Grind onions and chilies to paste.",
+            "Sauté paste in oil, add mutton and kokum.",
+            "Simmer for 15 mins. Serve with bhakri."
+        ]
+    },
+    {
+        id: 22,
+        name: "कोथिंबीर भात",
+        nameEn: "Kothimbir Bhaat",
+        category: "lunch",
+        image: "kothimbirbhaat.png",
+        ingredients: [
+            "२ कप तांदूळ",
+            "१ कप कोथिंबीर",
+            "१ चमचा लसूण",
+            "१ चमचा जिरे",
+            "१ चमचा तेल"
+        ],
+        ingredientsEn: [
+            "2 cups rice",
+            "1 cup coriander leaves",
+            "1 tsp garlic",
+            "1 tsp cumin seeds",
+            "1 tbsp oil"
+        ],
+        steps: [
+            "तांदूळ शिजवून ठेवा.",
+            "तेलात जिरे-लसूण परता.",
+            "चिरलेली कोथिंबीर घालून २ मिनिटे परता.",
+            "शिजलेले तांदूळ घालून मिक्स करा."
+        ],
+        stepsEn: [
+            "Cook rice and keep aside.",
+            "Temper cumin-garlic in oil.",
+            "Add chopped coriander and sauté for 2 mins.",
+            "Mix with cooked rice and serve."
+        ]
+    },
+    {
+        id: 23,
+        name: "वरहाडी बिर्याणी",
+        nameEn: "Varhadi Biryani",
+        category: "lunch",
+        image: "varhadi.png",
+        ingredients: [
+            "२ कप तांदूळ",
+            "५०० ग्रॅम मटण",
+            "२ कांदे",
+            "१/२ कप दही",
+            "२ चमचे वरहाडी मसाला",
+            "१ चमचा तेल"
+        ],
+        ingredientsEn: [
+            "2 cups rice",
+            "500g mutton",
+            "2 onions",
+            "1/2 cup curd",
+            "2 tbsp Varhadi masala",
+            "1 tbsp oil"
+        ],
+        steps: [
+            "मटण दही आणि वरहाडी मसाल्यात मरीनेट करा.",
+            "कांदे भेटवून तेलात परता.",
+            "मटण आणि तांदूळ एकत्र शिजवा.",
+            "१५ मिनिटे डम्प करून ठेवा."
+        ],
+        stepsEn: [
+            "Marinate mutton in curd and Varhadi masala.",
+            "Sauté ground onions in oil.",
+            "Cook mutton and rice together.",
+            "Dum for 15 mins before serving."
+        ]
+    },
+    {
+        id: 29,
+        name: "पूरी भाजी",
+        nameEn: "Puri Bhaji",
+        category: "breakfast",
+        image: "puribhaji.png",
+        ingredients: [
+            "२ कप गव्हाचे पीठ",
+            "४ बटाटे",
+            "२ हिरव्या मिरच्या",
+            "१ चमचा मोहरी",
+            "१ चमचा हळद",
+            "२ चमचे तेल"
+        ],
+        ingredientsEn: [
+            "2 cups wheat flour",
+            "4 potatoes",
+            "2 green chilies",
+            "1 tsp mustard seeds",
+            "1 tsp turmeric",
+            "2 tbsp oil"
+        ],
+        steps: [
+            "बटाटे उकडून, सोलून फोडी करा.",
+            "तेलात मोहरी फोडून मिरची आणि हळद टाका.",
+            "बटाटे घालून ५ मिनिटे परता.",
+            "गव्हाचे पीठ मळून, पोळीसारखी पुरी लाटून तळा."
+        ],
+        stepsEn: [
+            "Boil and dice the potatoes.",
+            "Heat oil, splutter mustard seeds, add chilies and turmeric.",
+            "Add potatoes and sauté for 5 minutes.",
+            "Knead wheat flour, roll puris and deep fry."
+        ]
+    },
+    {
+        id: 35,
+        name: "शेवयांची खीर",
+        nameEn: "Shevayachi Kheer",
+        category: "sweets",
+        image: "shevayachikheer.png",
+        ingredients: [
+            "१ कप शेवया",
+            "१ लिटर दूध",
+            "१ कप साखर",
+            "१० काजू",
+            "१० बदाम",
+            "१ चमचा इलायची पूड"
+        ],
+        ingredientsEn: [
+            "1 cup vermicelli",
+            "1 liter milk",
+            "1 cup sugar",
+            "10 cashews",
+            "10 almonds",
+            "1 tsp cardamom powder"
+        ],
+        steps: [
+            "दुध गरम करा, शेवया परतून त्यात घाला.",
+            "साखर आणि ड्रायफ्रूट्स घाला.",
+            "१० मिनिटे उकळा.",
+            "इलायची पूड घालून सर्व्ह करा."
+        ],
+        stepsEn: [
+            "Boil milk, add roasted vermicelli.",
+            "Add sugar and dry fruits.",
+            "Simmer for 10 minutes.",
+            "Add cardamom and serve."
+        ]
+    },
+    {
+        id: 42,
+        name: "कटाची आमटी",
+        nameEn: "Katachi Amti",
+        category: "lunch",
+        image: "katachiamti.png",
+        ingredients: [
+            "१ कप डाळ उकळून काढलेला पातळ कट",
+            "१ चमचा गोडा मसाला",
+            "१ चमचा आले लसूण पेस्ट",
+            "२ टोमॅटो",
+            "१ चमचा तिखट"
+        ],
+        ingredientsEn: [
+            "1 cup thin stock from boiled dal",
+            "1 tsp goda masala",
+            "1 tsp ginger-garlic paste",
+            "2 tomatoes",
+            "1 tsp chili powder"
+        ],
+        steps: [
+            "कट गरम करा.",
+            "त्यात मसाले आणि टोमॅटो घालून उकळवा.",
+            "१० मिनिटे शिजवा आणि कोथिंबीर घाला."
+        ],
+        stepsEn: [
+            "Heat dal stock.",
+            "Add spices and tomatoes, boil.",
+            "Simmer 10 mins and garnish with coriander."
+        ]
+    },
+    {
+        id: 43,
+        name: "गव्हाची खीर",
+        nameEn: "Wheat Kheer",
+        category: "sweets",
+        image: "wheatkheer.png",
+        ingredients: [
+            "१ कप गव्हाचे दाणे",
+            "१ लिटर दूध",
+            "१ कप साखर",
+            "१ चमचा वेलदोडा पूड",
+            "काजू-बदाम"
+        ],
+        ingredientsEn: [
+            "1 cup wheat grains",
+            "1 litre milk",
+            "1 cup sugar",
+            "1 tsp cardamom powder",
+            "Cashew-almonds"
+        ],
+        steps: [
+            "गहू रात्री भिजवा.",
+            "शिजवून दूधात घालून उकळवा.",
+            "साखर, वेलदोडा, ड्रायफ्रूट्स घालून शिजवा."
+        ],
+        stepsEn: [
+            "Soak wheat overnight.",
+            "Cook and boil in milk.",
+            "Add sugar, cardamom, dry fruits, simmer."
+        ]
+    },
+    {
+        id: 44,
+        name: "मसाला भात",
+        nameEn: "Masala Bhaat",
+        category: "lunch",
+        image: "masalabhaat.png",
+        ingredients: [
+            "२ कप तांदूळ",
+            "१ चमचा गोडा मसाला",
+            "१ कांदा",
+            "१ चमचा तिखट",
+            "४-५ काळे मिरे",
+            "कढीपत्ता"
+        ],
+        ingredientsEn: [
+            "2 cups rice",
+            "1 tbsp goda masala",
+            "1 onion",
+            "1 tsp chili powder",
+            "4-5 black pepper",
+            "Curry leaves"
+        ],
+        steps: [
+            "कांदा- मसाले परतवा.",
+            "तांदूळ आणि पाणी घालून शिजवा.",
+            "कोथिंबीर टाका."
+        ],
+        stepsEn: [
+            "Sauté onion and spices.",
+            "Add rice, water and cook.",
+            "Garnish with coriander."
+        ]
+    },
+    {
+        id: 45,
+        name: "मुळा पराठा",
+        nameEn: "Mula Paratha",
+        category: "breakfast",
+        image: "mulaparatha.png",
+        ingredients: [
+            "२ कप गव्हाचे पीठ",
+            "१ मुळा किसलेला",
+            "१ चमचा हळद",
+            "१ चमचा तिखट",
+            "कोथिंबीर"
+        ],
+        ingredientsEn: [
+            "2 cups wheat flour",
+            "1 grated radish",
+            "1 tsp turmeric",
+            "1 tsp red chili powder",
+            "Coriander leaves"
+        ],
+        steps: [
+            "सर्व साहित्य मिसळून पीठ मळा.",
+            "पोळ्या लाटून तव्यावर भाजा.",
+            "लोण्यासोबत सर्व्ह करा."
+        ],
+        stepsEn: [
+            "Mix all ingredients into dough.",
+            "Roll parathas and roast on tawa.",
+            "Serve with butter."
+        ]
+    },
+    {
+        id: 47,
+        name: "टाकुंबी भाजी",
+        nameEn: "Takumbi Bhaji (Pumpkin Curry)",
+        category: "lunch",
+        image: "takumbi.png",
+        ingredients: [
+            "५०० ग्रॅम टाकुंबी (कोहाळा)",
+            "१ चमचा तिखट",
+            "१ चमचा गोडा मसाला",
+            "१ चमचा गूळ",
+            "तेल, मीठ"
+        ],
+        ingredientsEn: [
+            "500g pumpkin",
+            "1 tsp red chili powder",
+            "1 tsp goda masala",
+            "1 tsp jaggery",
+            "Oil, salt"
+        ],
+        steps: [
+            "कापलेली टाकुंबी तेलात परतवा.",
+            "मसाले, गूळ घालून पाणी शिंपडा.",
+            "सॉफ्ट होईपर्यंत झाकून शिजवा."
+        ],
+        stepsEn: [
+            "Sauté pumpkin in oil.",
+            "Add spices, jaggery, sprinkle water.",
+            "Cover and cook till soft."
+        ]
+    },
+    
+    {
+        id: 50,
+        name: "कुरकुरीत वडे",
+        nameEn: "Kurkuri Vade",
+        category: "snacks",
+        image: "kurkuri_vade.png",
+        ingredients: [
+            "२ कप तांदळाचे पीठ",
+            "१ चमचा तीखट",
+            "१ चमचा जिरे",
+            "१ चमचा हळद",
+            "तेल, मीठ"
+        ],
+        ingredientsEn: [
+            "2 cups rice flour",
+            "1 tsp red chili powder",
+            "1 tsp cumin seeds",
+            "1 tsp turmeric",
+            "Oil, salt"
+        ],
+        steps: [
+            "सर्व साहित्य मिक्स करून पीठ भिजवा.",
+            "वडे लाटून तळून घ्या.",
+            "सोनेरी होईपर्यंत तळा."
+        ],
+        stepsEn: [
+            "Mix all ingredients, knead into dough.",
+            "Roll into discs and deep fry.",
+            "Fry till golden and crisp."
+        ]
     }
 ];
+
 
 // Language translations
 const translations = {
