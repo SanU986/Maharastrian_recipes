@@ -694,7 +694,7 @@ const recipes = [
         name: "पिठला भाकरी",
         nameEn: "Pithla Bhakri",
         category: "lunch",
-        image: "pithla.png",
+        image: "pitla.png",
         ingredients: [
             "१ कप बेसन",
             "१ कांदा, बारीक चिरलेला",
@@ -732,6 +732,493 @@ const recipes = [
     },
     {
         id: 16,
+        name: "साबुदाणा वडा",
+        nameEn: "Sabudana Vada",
+        category: "snacks",
+        image: "shabudanavada.png",
+        ingredients: [
+            "१ कप साबुदाणा (रात्रभर भिजवलेला)",
+            "२ उकडलेले बटाटे",
+            "२ हिरव्या मिरच्या",
+            "१ चमचा जिरे",
+            "तेल तळण्यासाठी"
+        ],
+        ingredientsEn: [
+            "1 cup soaked sago",
+            "2 boiled potatoes",
+            "2 green chilies",
+            "1 tsp cumin seeds",
+            "Oil for frying"
+        ],
+        steps: [
+            "साबुदाणा, बटाटे, मिरची मिसळून मिक्स करा.",
+            "छोटे वडे तयार करा.",
+            "तेलात क्रिस्पी होईपर्यंत तळा.",
+            "दही चटणीबरोबर सर्व्ह करा."
+        ],
+        stepsEn: [
+            "Mash sago, potatoes, chilies into a dough.",
+            "Shape into small patties.",
+            "Deep fry until crispy.",
+            "Serve with yogurt chutney."
+        ]
+    },
+    {
+        id: 17,
+        name: "दुधी हलवा",
+        nameEn: "Doodhi Halwa",
+        category: "sweets",
+        image: "doodhi-halwa.png",
+        ingredients: [
+            "२ कप दुधी, किसलेली",
+            "१ कप दूध",
+            "१/२ कप साखर",
+            "४ चमचे तूप",
+            "१० काजू-बदाम"
+        ],
+        ingredientsEn: [
+            "2 cups grated bottle gourd (doodhi)",
+            "1 cup milk",
+            "1/2 cup sugar",
+            "4 tbsp ghee",
+            "10 cashews-almonds"
+        ],
+        steps: [
+            "तेलात दुधी शिजवा पाणी संपेपर्यंत.",
+            "दूध आणि साखर घालून ढवळा.",
+            "तूप आणि काजू घालून १० मिनिटे शिजवा.",
+            "गरमागरम सर्व्ह करा."
+        ],
+        stepsEn: [
+            "Cook grated gourd in ghee until water evaporates.",
+            "Add milk and sugar, stir well.",
+            "Add nuts and cook for 10 mins.",
+            "Serve warm."
+        ]
+    },
+    {
+        id: 18,
+        name: "शंकरपाळी",
+        nameEn: "Shankarpali",
+        category: "sweets",
+        image: "shankarpali.png",
+        ingredients: [
+            "२ कप मैदा",
+            "१/२ कप साखर",
+            "२ चमचे तूप",
+            "१/४ चमचा इलायची पूड",
+            "तेल तळण्यासाठी"
+        ],
+        ingredientsEn: [
+            "2 cups maida",
+            "1/2 cup sugar",
+            "2 tbsp ghee",
+            "1/4 tsp cardamom powder",
+            "Oil for frying"
+        ],
+        steps: [
+            "मैदा, साखर, तूप मिसळून कठीण पीठ मळा.",
+            "पातळ रोल करून डायमंड आकारात कापा.",
+            "तेलात सोनेरी होईपर्यंत तळा.",
+            "थंड करून स्टोअर करा."
+        ],
+        stepsEn: [
+            "Knead dough with maida, sugar, and ghee.",
+            "Roll thin and cut into diamonds.",
+            "Deep fry until golden.",
+            "Cool and store in airtight container."
+        ]
+    },
+    {
+        id: 19,
+        name: "कांदा भजी",
+        nameEn: "Kanda Bhaji",
+        category: "snacks",
+        image: "kanda-bhaji.png",
+        ingredients: [
+            "२ कांदे, पातळ स्लाईस केलेले",
+            "१ कप बेसन",
+            "१ चमचा तिखट",
+            "१/२ चमचा हळद",
+            "तेल तळण्यासाठी"
+        ],
+        ingredientsEn: [
+            "2 onions, thinly sliced",
+            "1 cup gram flour (besan)",
+            "1 tsp red chili powder",
+            "1/2 tsp turmeric",
+            "Oil for frying"
+        ],
+        steps: [
+            "कांदे, बेसन, मसाले मिसळून पेस्ट तयार करा.",
+            "तेल गरम करून छोट्या भज्या तळा.",
+            "सोनेरी होईपर्यंत तळून घ्या.",
+            "चटणीबरोबर सर्व्ह करा."
+        ],
+        stepsEn: [
+            "Mix onions, besan, and spices into a batter.",
+            "Heat oil and drop small fritters.",
+            "Fry until golden brown.",
+            "Serve with chutney."
+        ]
+    },
+    {
+        id: 20,
+        name: "शिरा",
+        nameEn: "Sheera",
+        category: "breakfast",
+        image: "sheera.png",
+        ingredients: [
+            "१ कप रवा",
+            "१/२ कप साखर",
+            "१/४ कप तूप",
+            "१/४ कप बदाम-काजू",
+            "१ चमचा इलायची पूड"
+        ],
+        ingredientsEn: [
+            "1 cup semolina (sooji)",
+            "1/2 cup sugar",
+            "1/4 cup ghee",
+            "1/4 cup almonds-cashews",
+            "1 tsp cardamom powder"
+        ],
+        steps: [
+            "तूपात रवा भाजून घ्या.",
+            "साखर आणि २ कप पाणी घाला.",
+            "ढवळत रहा जोपर्यंत गोठत नाही.",
+            "बदाम-काजू आणि इलायची घाला."
+        ],
+        stepsEn: [
+            "Roast semolina in ghee.",
+            "Add sugar and 2 cups water.",
+            "Stir until thickened.",
+            "Garnish with nuts and cardamom."
+        ]
+    },
+    {
+        "id": 21,
+        "name": "उपमा",
+        "nameEn": "Upma",
+        "category": "breakfast",
+         image: "upma.png",
+
+        "ingredients": [
+          "१ कप सूजी (रवा)",
+          "१ कप मिश्र भाज्या (कांदा, टोमॅटो, वाटाणे)",
+          "१ चमचा मोहरी",
+          "१ चमचा लिंबू रस"
+        ],
+        "ingredientsEn": [
+          "1 cup semolina (sooji)",
+          "1 cup mixed veggies (onion, tomato, peas)",
+          "1 tsp mustard seeds",
+          "1 tsp lemon juice"
+        ],
+        "steps": [
+          "सूजी कोरडी भाजून काढा.",
+          "तेलात मोहरी, भाज्या घालून परता.",
+          "२ कप पाणी उकळवा, सूजी घालून ढवळा.",
+          "लिंबू रस घालून सर्व्ह करा."
+        ],
+        "stepsEn": [
+          "Dry roast semolina and set aside.",
+          "Temper mustard seeds, sauté veggies.",
+          "Boil 2 cups water, add semolina and stir.",
+          "Add lemon juice and serve."
+        ]
+      },
+      {
+        "id": 22,
+        "name": "ठेपळी",
+        "nameEn": "Thepla",
+        "category": "breakfast",
+        image: "thepla.png",
+        "ingredients": [
+          "१ कप बेसन",
+          "१/२ कप दही",
+          "१ चमचा जिरे पूड",
+          "१/२ चमचा हळद"
+        ],
+        "ingredientsEn": [
+          "1 cup gram flour",
+          "1/2 cup yogurt",
+          "1 tsp cumin powder",
+          "1/2 tsp turmeric"
+        ],
+        "steps": [
+          "सर्व साहित्य मिसळून घट्ट घडी करा.",
+          "पातळ थेपळी भाजा.",
+          "साकर आणि चहासोबत सर्व्ह करा."
+        ],
+        "stepsEn": [
+          "Mix all ingredients into a stiff dough.",
+          "Roll thin and cook on a tawa.",
+          "Serve with sugar and tea."
+        ]
+      },
+      {
+        "id": 23,
+        "name": "इडली",
+        "nameEn": "Idli",
+        "category": "breakfast",
+        image: "idli.png",
+        "ingredients": [
+          "२ कप इडली बॅटर",
+          "१ चमचा उप्पु (मीठ)",
+          "१/२ चमचा सोडा"
+        ],
+        "ingredientsEn": [
+          "2 cups idli batter",
+          "1 tsp salt",
+          "1/2 tsp baking soda"
+        ],
+        "steps": [
+          "बॅटरमध्ये मीठ आणि सोडा घाला.",
+          "इडली मोल्डमध्ये ओतून वाफवा.",
+          "चटणी आणि सांबारसोबत सर्व्ह करा."
+        ],
+        "stepsEn": [
+          "Add salt and soda to batter.",
+          "Steam in idli molds for 10 mins.",
+          "Serve with chutney and sambar."
+        ]
+      },
+      {
+        "id": 24,
+        "name": "समोसा",
+        "nameEn": "Samosa",
+        "category": "snacks",
+        image: "samosa.png",
+        "ingredients": [
+          "२ कप आटा",
+          "४ उकडलेले बटाटे",
+          "१ चमचा गरम मसाला",
+          "तेल तळण्यासाठी"
+        ],
+        "ingredientsEn": [
+          "2 cups flour",
+          "4 boiled potatoes",
+          "1 tsp garam masala",
+          "Oil for frying"
+        ],
+        "steps": [
+          "आट्याची घडी करा.",
+          "बटाट्याचे पूर भरून त्रिकोण आकार द्या.",
+          "तळून सुवर्ण तपकिरी करा."
+        ],
+        "stepsEn": [
+          "Make dough with flour and water.",
+          "Fill potato stuffing, shape into cones.",
+          "Deep fry until golden brown."
+        ]
+      },
+      {
+        "id": 25,
+        "name": "पाटीस",
+        "nameEn": "Patis",
+        "category": "snacks",
+        image: "patis.png",
+        "ingredients": [
+          "१ कप चण्याचे पीठ",
+          "१/४ कप तूप",
+          "१ चमचा जिरे पूड",
+          "मीठ चवीनुसार"
+        ],
+        "ingredientsEn": [
+          "1 cup besan (gram flour)",
+          "1/4 cup ghee",
+          "1 tsp cumin powder",
+          "Salt to taste"
+        ],
+        "steps": [
+          "सर्व साहित्य मिसळून घडी करा.",
+          "लहान वाट्या करून भाजा.",
+          "थंड झाल्यावर सर्व्ह करा."
+        ],
+        "stepsEn": [
+          "Mix ingredients into a dough.",
+          "Shape into small discs and fry.",
+          "Serve once cooled."
+        ]
+      },
+      {
+        "id": 26,
+        "name": "चिवडा",
+        "nameEn": "Chivda",
+        "category": "snacks",
+        image: "chivda.png",
+        "ingredients": [
+          "२ कप पोहा (फ्लॅटन्ड राइस)",
+          "१/४ कप शेंगदाणे",
+          "१ चमचा हळद",
+          "५-६ करीपत्ते"
+        ],
+        "ingredientsEn": [
+          "2 cups flattened rice",
+          "1/4 cup peanuts",
+          "1 tsp turmeric",
+          "5-6 curry leaves"
+        ],
+        "steps": [
+          "पोहा कोरडा भाजून काढा.",
+          "शेंगदाणे, करीपत्ते तेलात भाजा.",
+          "सर्व मिसळून थंड करा."
+        ],
+        "stepsEn": [
+          "Dry roast poha until crisp.",
+          "Temper peanuts and curry leaves in oil.",
+          "Mix all and cool before storing."
+        ]
+      },
+      {
+        "id": 27,
+        "name": "चकली",
+        "nameEn": "Chakli",
+        "category": "snacks",
+        image: "chakli.png",
+        "ingredients": [
+          "१ कप तांदूळ पीठ",
+          "१/२ कप उडीद डाळ पीठ",
+          "१ चमचा तूप",
+          "मीठ चवीनुसार"
+        ],
+        "ingredientsEn": [
+          "1 cup rice flour",
+          "1/2 cup urad dal flour",
+          "1 tsp ghee",
+          "Salt to taste"
+        ],
+        "steps": [
+          "सर्व पीठ मिसळून गरम पाण्यात घडी करा.",
+          "चकली मशीनमध्ये भरून आकार द्या.",
+          "तळून थंड करा."
+        ],
+        "stepsEn": [
+          "Mix flours, ghee, and salt with hot water.",
+          "Press into spiral shapes using a chakli maker.",
+          "Deep fry until crisp."
+        ]
+      },
+    
+      // ========== SWEET RECIPES (5) ==========
+      {
+        "id": 28,
+        "name": "गुलाब जामुन",
+        "nameEn": "Gulab Jamun",
+        "category": "sweets",
+        image: "gulabjamun.png",
+        "ingredients": [
+          "१ कप खोवा",
+          "१/४ कप मैदा",
+          "१ चमचा तूप",
+          "२ कप साखरेचा पाक"
+        ],
+        "ingredientsEn": [
+          "1 cup khoya",
+          "1/4 cup maida",
+          "1 tsp ghee",
+          "2 cups sugar syrup"
+        ],
+        "steps": [
+          "खोवा, मैदा, तूप मिसळून घडी करा.",
+          "लहान गोळ्या तळा.",
+          "गरम पाकात भिजवा."
+        ],
+        "stepsEn": [
+          "Mix khoya, maida, and ghee into a dough.",
+          "Fry small balls until dark brown.",
+          "Soak in warm sugar syrup."
+        ]
+      },
+      {
+        "id": 29,
+        "name": "श्रीखंड",
+        "nameEn": "Shrikhand",
+        "category": "sweets",
+        image: "shrikand.png",
+        "ingredients": [
+          "२ कप दही (हंग)",
+          "१/२ कप साखर",
+          "१ चमचा इलायची पूड",
+          "१/४ कप बदाम"
+        ],
+        "ingredientsEn": [
+          "2 cups hung curd",
+          "1/2 cup sugar",
+          "1 tsp cardamom powder",
+          "1/4 cup almonds"
+        ],
+        "steps": [
+          "दही कापडात बांधून पाणी काढून घ्या.",
+          "साखर, इलायची मिसळून फेटवा.",
+          "बदामसह गोठवा."
+        ],
+        "stepsEn": [
+          "Strain yogurt in a muslin cloth for 4 hours.",
+          "Whisk with sugar and cardamom.",
+          "Chill and garnish with almonds."
+        ]
+      },
+      {
+        "id": 30,
+        "name": "बासुंदी",
+        "nameEn": "Basundi",
+        "category": "sweets",
+        image: "basundi.png",
+        "ingredients": [
+          "१ लिटर दूध",
+          "१/२ कप साखर",
+          "१ चमचा इलायची पूड",
+          "१/४ कप पिस्ता"
+        ],
+        "ingredientsEn": [
+          "1 liter milk",
+          "1/2 cup sugar",
+          "1 tsp cardamom powder",
+          "1/4 cup pistachios"
+        ],
+        "steps": [
+          "दूध हळूवारपणे गाढ करा.",
+          "साखर घालून ढवळा.",
+          "थंड करून पिस्ता घाला."
+        ],
+        "stepsEn": [
+          "Simmer milk until reduced to half.",
+          "Add sugar and stir.",
+          "Cool, garnish with pistachios."
+        ]
+      },
+      {
+        "id": 31,
+        "name": "जिलेबी",
+        "nameEn": "Jalebi",
+        "category": "sweets",
+        image: "jilabi.png",
+        "ingredients": [
+          "१ कप मैदा",
+          "१ चमचा यीस्ट",
+          "१ चमचा तूप",
+          "२ कप साखरेचा पाक"
+        ],
+        "ingredientsEn": [
+          "1 cup maida",
+          "1 tsp yeast",
+          "1 tsp ghee",
+          "2 cups sugar syrup"
+        ],
+        "steps": [
+          "मैदा, यीस्ट, तूप मिसळून फेरमेंट करा.",
+          "कॅनमध्ये भरून गोल आकारात तळा.",
+          "पाकात बुडवून सर्व्ह करा."
+        ],
+        "stepsEn": [
+          "Mix maida, yeast, ghee, and ferment for 6 hours.",
+          "Pipe into hot oil in spiral shapes.",
+          "Dip in sugar syrup and serve warm."
+        ]
+      },
+    {
+        id: 32,
         name: "आमटी",
         nameEn: "Aamti",
         category: "lunch",
@@ -770,7 +1257,7 @@ const recipes = [
         ]
     },
     {
-        id: 17,
+        id: 33,
         name: "काजू कतली",
         nameEn: "Kaju Katli",
         category: "sweets",
@@ -803,7 +1290,7 @@ const recipes = [
         ]
     },
     {
-        id: 18,
+        id: 34,
         name: "आळूची वडी",
         nameEn: "Aluchi Vadi",
         category: "snacks",
@@ -840,7 +1327,7 @@ const recipes = [
         ]
     },
     {
-        id: 19,
+        id: 35,
         name: "कोंबडी वडे",
         nameEn: "Kombdi Vade",
         category: "lunch",
@@ -875,7 +1362,7 @@ const recipes = [
         ]
     },
     {
-        id: 20,
+        id: 36,
         name: "तांबडा रस्सा",
         nameEn: "Tambda Rassa",
         category: "lunch",
@@ -910,7 +1397,7 @@ const recipes = [
         ]
     },
     {
-        id: 22,
+        id: 37,
         name: "कोथिंबीर भात",
         nameEn: "Kothimbir Bhaat",
         category: "lunch",
@@ -943,7 +1430,7 @@ const recipes = [
         ]
     },
     {
-        id: 23,
+        id: 38,
         name: "वरहाडी बिर्याणी",
         nameEn: "Varhadi Biryani",
         category: "lunch",
@@ -978,7 +1465,7 @@ const recipes = [
         ]
     },
     {
-        id: 29,
+        id: 39,
         name: "पूरी भाजी",
         nameEn: "Puri Bhaji",
         category: "breakfast",
@@ -1013,7 +1500,7 @@ const recipes = [
         ]
     },
     {
-        id: 35,
+        id: 40,
         name: "शेवयांची खीर",
         nameEn: "Shevayachi Kheer",
         category: "sweets",
@@ -1048,7 +1535,7 @@ const recipes = [
         ]
     },
     {
-        id: 42,
+        id: 41,
         name: "कटाची आमटी",
         nameEn: "Katachi Amti",
         category: "lunch",
@@ -1079,7 +1566,7 @@ const recipes = [
         ]
     },
     {
-        id: 43,
+        id: 42,
         name: "गव्हाची खीर",
         nameEn: "Wheat Kheer",
         category: "sweets",
@@ -1110,7 +1597,7 @@ const recipes = [
         ]
     },
     {
-        id: 44,
+        id: 43,
         name: "मसाला भात",
         nameEn: "Masala Bhaat",
         category: "lunch",
@@ -1143,7 +1630,7 @@ const recipes = [
         ]
     },
     {
-        id: 45,
+        id: 44,
         name: "मुळा पराठा",
         nameEn: "Mula Paratha",
         category: "breakfast",
@@ -1174,7 +1661,7 @@ const recipes = [
         ]
     },
     {
-        id: 47,
+        id: 45,
         name: "टाकुंबी भाजी",
         nameEn: "Takumbi Bhaji (Pumpkin Curry)",
         category: "lunch",
@@ -1206,7 +1693,7 @@ const recipes = [
     },
     
     {
-        id: 50,
+        id: 46,
         name: "कुरकुरीत वडे",
         nameEn: "Kurkuri Vade",
         category: "snacks",
